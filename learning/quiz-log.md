@@ -1,5 +1,13 @@
 # Learning checkpoints
 
-The interactive quiz record is kept locally outside Git because it can contain Hanif's prompt text and personal answers. The completed checkpoints covered retrieval versus generation, the role of the harness, citation ID membership versus claim support, and the difference between a fresh ask and contextual chat.
+While coding and preparing this assignment, I used a short interactive quiz to check my own understanding. I answered in my own words, then compared each idea with the notes and the behavior of the CLI.
 
-The final submission uses the code, reviewed notes, wiki pages, and [question-and-answer review](../evidence/question-and-answer-review.md) as evidence. This page does not reproduce the private quiz conversation.
+- Retrieval finds a passage in the original notes.
+- Gemma uses retrieved passages to write a RAG answer.
+- The Python harness selects commands, calls search and Gemma, and checks citation IDs.
+- A valid citation ID shows that a passage was retrieved. It does not prove that the passage supports the answer.
+- `ask` starts a new question. `chat` keeps recent turns in one session.
+
+The full quiz conversation stays local because it can contain my prompt text and personal answers. The [implementation plan](../IMPLEMENTATION_PLAN.md) shows the quiz checkpoints.
+
+The quiz was a learning check for me. The [question-and-answer review](../evidence/question-and-answer-review.md) tests the wiki system. These are separate checks.

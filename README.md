@@ -16,6 +16,7 @@ The title, `ask`, and `chat` images are AI-generated concept art. The test evide
 ## Find the important files
 
 - [Implementation plan](IMPLEMENTATION_PLAN.md): the build steps and quiz points.
+- [Learning checkpoints](learning/quiz-log.md): how I used a quiz to check my understanding.
 - [Design notes](design.md): the roles of search, Gemma, and the harness.
 - [Source catalog](data/source-catalog.json): the three approved notes and their hashes.
 - [Wiki index](vault/index.md): links to the three wiki pages and three original notes.
@@ -24,6 +25,18 @@ The title, `ask`, and `chat` images are AI-generated concept art. The test evide
 - [Offline result](evidence/offline/README.md): the disconnected test and safe GIF.
 - [Obsidian screenshots](evidence/obsidian/README.md): the note, index, and graph views.
 - [Submission handoff](SUBMISSION_HANDOFF.md): the final checklist.
+
+## How I checked my learning
+
+While I coded and prepared this assignment, I used short quiz questions to check that I understood each part. I answered in my own words and compared my answers with the CLI behavior and the original notes.
+
+- I explained what retrieval finds and what Gemma does with a passage.
+- I explained how the Python harness controls search, model calls, and citations.
+- I checked why a valid citation ID does not prove that the cited text supports a claim.
+- I explained why `ask` starts fresh while `chat` keeps context.
+- The [implementation plan](IMPLEMENTATION_PLAN.md) marks the quiz points. The [learning log](learning/quiz-log.md) records the topics without sharing my private quiz conversation.
+
+The quiz checked **my understanding**. The four `ask` cases in the [evaluation review](evidence/question-and-answer-review.md) checked **the wiki system**.
 
 ## How the system works
 
