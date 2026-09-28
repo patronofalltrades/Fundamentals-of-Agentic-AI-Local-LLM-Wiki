@@ -1,15 +1,26 @@
-# Obsidian visual check
+# Obsidian screenshots
 
-On 2026-09-27, the separate `vault/` folder opened in Obsidian with the approved corpus. We opened the index-to-wiki-page and wiki-page-to-original-note links in the app. The final graph screenshot shows seven named files and their links at a readable size.
+The separate `vault/` folder opened in Obsidian on 2026-09-27.
 
-Three source-note screenshots are saved here as supplementary proof: `source-architectures.png`, `source-learning.png`, and `source-run-controls.png`. They show the approved notes in the separate assignment vault. Screenshots of all three generated wiki pages are also saved: `open-note.png`, `wiki-evaluations.png`, and `wiki-reliability.png`. These page views show the model and source metadata, review status, and content. They do not yet show the source and related-page links lower on the page.
+## Required views
 
-The required screenshot set is complete:
+- [Open wiki note](open-note.png): title, source ID and hash, model tag, review status, summary, and original line references.
+- [Index](index.png): links to three wiki pages and three original notes.
+- [Graph](graph.png): seven named files and their connections.
 
-- `open-note.png` — a reviewed wiki page with matching title, source ID and hash, model tag, review status, summary, and cited original lines.
-- `index.png` — `vault/index.md`, showing links to the three reviewed pages and three originals.
-- `graph.png` — the seven-file graph with readable labels and meaningful connections.
+## Extra views
 
-The page screenshots show the top of each page. A separate scrolled capture of the source and related-page links would add visual detail, but the links have already been checked by opening them in Obsidian.
+- [Architecture source](source-architectures.png)
+- [Learning source](source-learning.png)
+- [Run-controls source](source-run-controls.png)
+- [Evaluation wiki page](wiki-evaluations.png)
+- [Reliability wiki page](wiki-reliability.png)
 
-These screenshots must be captured from Obsidian. The Markdown files alone do not satisfy the visual evidence requirement.
+## What was checked
+
+- The index opened a wiki page.
+- A wiki page opened its original note.
+- Related-page links opened the linked pages.
+- The graph labels were readable.
+
+The page screenshots show the top of each page. The source and related-page links are lower on the pages. We opened those links in Obsidian, but the current screenshots do not show the clicks. The Markdown files and screenshots together show the vault structure; the screenshots are the visual proof.

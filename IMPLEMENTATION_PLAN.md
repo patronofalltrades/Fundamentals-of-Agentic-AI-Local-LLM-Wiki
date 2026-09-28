@@ -4,22 +4,39 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 
 **Goal:** Make one local personal wiki. Use local Gemma to make wiki pages and answer questions from original notes. Show the result in a CLI and in Obsidian.
 
-**Current state:** The Mac has an Apple M5 chip and 16 GB of memory. Ollama and Obsidian are installed. `gemma4:e2b-mlx` is on the Mac. Hanif approved three rewritten notes in the separate assignment vault; their hashes are frozen. The CLI has ingestion, search, ask, chat, and help commands. Local Gemma generated three linked wiki pages. The frozen corpus passed connected and disconnected four-case answer checks, search, chat, and 35 code tests. The required Obsidian screenshots are saved. Two disconnected runs completed on 2026-09-28; the latest has a cropped proof GIF and prompt-free public summary.
+**Current state:**
 
-**Next action:** Submit the [public repository URL](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki) in bCourses. Public visibility and unauthenticated access to key files have been checked.
+- The Mac has an Apple M5 chip and 16 GB of memory.
+- Ollama, Obsidian, and `gemma4:e2b-mlx` are installed.
+- Hanif approved three rewritten notes in the separate assignment vault.
+- The source catalog records their fixed hashes.
+- The CLI has `ingest`, `search`, `ask`, `chat`, and `help` commands.
+- Local Gemma made three linked wiki pages.
+- The four answer cases, search, chat, and 35 code tests passed online and offline.
+- The Obsidian screenshots and two completed offline runs are saved.
+- The public repo includes a safe GIF and a report without private prompts.
+
+**Next action:** Submit the [public repository URL](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki) in bCourses.
 
 ## Progress checklist
 
-| Step | Work | Status |
-| --- | --- | --- |
-| 1–4 | Select three notes, record the local model, freeze four test cases, and set up separate folders | Done |
-| 5–6 | Generate and review three linked wiki pages; search original passages | Done |
-| 7–10 | Build the CLI and run connected ask, chat, retrieval, and code checks | Done |
-| 11 | Open the assignment vault and follow its index and source links | Done; required screenshots saved |
-| 12 | Disconnect, restart Ollama and Terminal, then record the full offline run | Done; two completed runs and safe GIF |
-| 13 | Add prompt-free offline results and screenshots, review public files, publish, and submit the URL | Published; course submission remains |
+- [x] **Steps 1–4:** Select three notes, record the model, set test cases, and make separate folders.
+- [x] **Steps 5–6:** Make three linked wiki pages and search the originals.
+- [x] **Steps 7–10:** Build the CLI. Test ask, chat, search, and code.
+- [x] **Step 11:** Open the vault in Obsidian. Save the required screenshots.
+- [x] **Step 12:** Disconnect, restart, and run the offline test twice.
+- [x] **Step 13:** Publish the code, notes, wiki, and safe evidence.
+- [ ] **Final action:** Submit the public repository URL in bCourses.
 
-The connected and disconnected four-case answer checks passed, and all 35 code tests passed. Exact personal test and chat inputs remain in Git-ignored local files.
+The exact test and chat inputs remain in Git-ignored local files.
+
+```mermaid
+flowchart LR
+    A["1. Freeze<br/>three notes"] --> B["2. Build<br/>wiki and CLI"]
+    B --> C["3. Test<br/>answers and chat"]
+    C --> D["4. Prove<br/>offline use"]
+    D --> E["5. Publish<br/>and submit"]
+```
 
 ## Step 1 — Select the notes
 
@@ -139,7 +156,13 @@ The connected and disconnected four-case answer checks passed, and all 35 code t
 
 ## Step 12 — Make the offline proof
 
-Use the [offline walkthrough](learning/offline-walkthrough.md) and `scripts/offline-proof.sh` to repeat the test. The first disconnected attempt stopped before the ask checks because a private file was not resident on disk. Two later runs completed. The [safe completed-run GIF](evidence/offline/completed-offline-steps.gif) and [prompt-free offline report](evidence/offline/README.md) show the result while raw records remain private.
+Use the [offline walkthrough](learning/offline-walkthrough.md) and `scripts/offline-proof.sh` to repeat the test.
+
+- The first attempt stopped before the ask checks. A private file was not stored on local disk.
+- Two later disconnected runs completed.
+- The [safe GIF](evidence/offline/completed-offline-steps.gif) shows the main steps.
+- The [offline report](evidence/offline/README.md) gives results without private prompts.
+- Raw records remain private.
 
 1. Confirm that the model and all software packages are on the Mac.
 2. Disconnect the Mac from the internet. Restart the CLI.
