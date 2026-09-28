@@ -11,7 +11,7 @@ Two disconnected runs completed on 2026-09-28. The latest run is `20260928T19011
 - The script ingested three notes and ran the tests.
 - The final run status was `completed`.
 
-The [public JSON summary](completed-run-summary.json) gives check flags, times, and hashes. It does not include the private test prompts.
+The [public JSON summary](completed-run-summary.json) gives check flags, times, and hashes. The [question and answer review](../question-and-answer-review.md) shows the four test questions and displayed answers.
 
 ## Results
 
@@ -59,4 +59,4 @@ The full recording stays private. Its full-screen view includes unrelated person
 - `scripts/prepare-offline-inputs.py` put that file on local disk before two completed reruns.
 - The earlier completed run is `20260928T185634Z-21046/`.
 
-Exact questions, raw answers, model requests, and full logs remain in Git-ignored local files.
+Raw model responses, full model requests, and full logs remain in Git-ignored local files. The four test questions and displayed answers are public in the review linked above.

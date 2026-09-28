@@ -14,7 +14,7 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 - Local Gemma made three linked wiki pages.
 - The four answer cases, search, chat, and 35 code tests passed online and offline.
 - The Obsidian screenshots and two completed offline runs are saved.
-- The public repo includes a safe GIF and a report without private prompts.
+- The public repo includes a safe GIF and a question-and-answer review.
 
 **Next action:** Submit the [public repository URL](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki) in bCourses.
 
@@ -63,7 +63,7 @@ flowchart LR
 2. Write three questions that the notes can answer.
 3. Write one question that the notes cannot answer.
 4. Record the expected source passage for each answerable question.
-5. Put the exact questions in the Git-ignored local evaluation file. Keep it outside the wiki. Put only case roles and expected evidence in public `evaluation/expectations.md`.
+5. Keep the original evaluation file outside the wiki. Record case roles and expected evidence in `evaluation/expectations.md`. The exact four questions were later approved for the public [review](evidence/question-and-answer-review.md).
 
 **Check:** The four questions and expected results exist before the retrieval test.
 
@@ -161,7 +161,7 @@ Use the [offline walkthrough](learning/offline-walkthrough.md) and `scripts/offl
 - The first attempt stopped before the ask checks. A private file was not stored on local disk.
 - Two later disconnected runs completed.
 - The [safe GIF](evidence/offline/completed-offline-steps.gif) shows the main steps.
-- The [offline report](evidence/offline/README.md) gives results without private prompts.
+- The [offline report](evidence/offline/README.md) gives run results. The [question and answer review](evidence/question-and-answer-review.md) shows the four public test questions and displayed answers.
 - Raw records remain private.
 
 1. Confirm that the model and all software packages are on the Mac.
@@ -179,12 +179,12 @@ Use the [offline walkthrough](learning/offline-walkthrough.md) and `scripts/offl
 
 1. Write the README as the entry point.
 2. Add the exact setup commands, model choice, device facts, architecture, and known limit.
-3. Link the source list, wiki, prompt-free four-case report, chat/search summary, offline proof summary, and Obsidian screenshots.
+3. Link the source list, wiki, question-and-answer review, offline proof summary, and Obsidian screenshots.
 4. Check the repository for secrets and private data.
 5. Publish one public GitHub repository. Open it while signed out and check the links.
 6. Submit that repository URL in bCourses.
 
-**Final check:** The repository contains the code, three original notes, reviewed wiki pages, prompt-free test evidence, offline proof summary, screenshots, and a complete README. The public links work.
+**Final check:** The repository contains the code, three original notes, reviewed wiki pages, question-and-answer review, offline proof summary, screenshots, and a complete README. The public links work.
 
 ## Work rule
 

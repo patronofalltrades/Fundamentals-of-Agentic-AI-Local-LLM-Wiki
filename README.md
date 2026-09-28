@@ -20,6 +20,7 @@ The title, `ask`, and `chat` images are AI-generated concept art. The test evide
 - [Source catalog](data/source-catalog.json): the three approved notes and their hashes.
 - [Wiki index](vault/index.md): links to the three wiki pages and three original notes.
 - [Evaluation plan](evaluation/expectations.md): three answerable cases and one unsupported case.
+- [Question and answer review](evidence/question-and-answer-review.md): exact test questions, displayed answers, chat replies, and assessment.
 - [Offline result](evidence/offline/README.md): the disconnected test and safe GIF.
 - [Obsidian screenshots](evidence/obsidian/README.md): the note, index, and graph views.
 - [Submission handoff](SUBMISSION_HANDOFF.md): the final checklist.
@@ -142,7 +143,7 @@ python3 -m unittest discover -s tests -v
 - **Obsidian:** The [open note](evidence/obsidian/open-note.png), [index](evidence/obsidian/index.png), and [graph](evidence/obsidian/graph.png) screenshots are saved.
 - **Offline:** Two disconnected runs completed. The latest run passed ingestion, 35 code tests, four ask cases, and chat checks.
 
-The public reports omit the exact private questions and raw model answers. See the [connected report](evidence/connected-evaluation.md) and [offline report](evidence/offline/README.md).
+The [question and answer review](evidence/question-and-answer-review.md) shows the exact four test questions and displayed answers. The [connected report](evidence/connected-evaluation.md) and [offline report](evidence/offline/README.md) give run results.
 
 ## Offline proof
 
@@ -191,12 +192,12 @@ To repeat the test on Hanif's Mac, read the [offline walkthrough](learning/offli
 - `wiki.py`: the CLI and harness.
 - `retrieval.py`: local passage search.
 - `prompts/`: model instructions for the CLI.
-- `evaluation/`: prompt-free public case roles and test code.
+- `evaluation/`: case roles, expected evidence, and test code.
 - `learning/`: walkthroughs and quiz checkpoints.
 - `evidence/`: public summaries, screenshots, and safe GIFs.
 - `private-archive/` and raw run folders: Git-ignored local records.
 
-Do not put exact private test questions, raw model records, or full recordings in the public repo.
+The four test questions and displayed responses are public in the review linked above. Keep raw model records, full recordings, and other private prompts out of the public repo.
 
 ## Device and limits
 

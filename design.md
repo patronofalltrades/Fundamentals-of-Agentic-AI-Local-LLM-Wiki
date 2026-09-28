@@ -102,6 +102,7 @@ One unsupported test exposed a model error: Gemma marked the answer insufficient
 5. Disconnect, restart, and repeat the required run.
 6. Open the linked wiki in Obsidian and save screenshots.
 
-- The [public case plan](evaluation/expectations.md) gives case roles and expected evidence.
-- The [connected report](evidence/connected-evaluation.md) and [offline report](evidence/offline/README.md) give results without exact private questions.
-- Raw model records, full recordings, and exact prompts stay in Git-ignored local storage.
+- The [case plan](evaluation/expectations.md) gives roles and expected evidence.
+- The [question and answer review](evidence/question-and-answer-review.md) shows the four exact test questions, displayed answers, chat checks, and assessment.
+- The [connected report](evidence/connected-evaluation.md) and [offline report](evidence/offline/README.md) give run results.
+- Raw model records, full recordings, and other private prompts stay in Git-ignored local storage.

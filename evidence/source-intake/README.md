@@ -16,4 +16,4 @@ Three rewritten study notes entered the separate assignment Obsidian vault on 20
 - The original bookmark notes in Hanif's Brain were not edited.
 - The old bookmark copies and version-1 results are in Git-ignored `private-archive/corpus-v1/`.
 
-The approved notes passed the four-case [connected](../connected-evaluation.md) and [disconnected](../offline/README.md) checks. Exact questions and raw answers stay in Git-ignored local storage.
+The approved notes passed the four-case [connected](../connected-evaluation.md) and [disconnected](../offline/README.md) checks. The [question and answer review](../question-and-answer-review.md) shows the exact questions and displayed answers. Raw model responses stay in Git-ignored local storage.

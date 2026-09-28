@@ -18,6 +18,6 @@
 - A person checked the supported claims against the cited lines.
 - Q4 returned insufficient evidence and no final citations.
 - Gemma's raw Q4 response contained two citations. The harness removed them from the displayed result and saved the correction.
-- The raw answer and exact test questions remain in Git-ignored local records.
+- The raw model response remains in a Git-ignored local record.
 
-See the [Obsidian proof](obsidian/README.md) for screenshots of the linked vault.
+The [question and answer review](question-and-answer-review.md) publishes the exact questions and displayed answers from the later offline run. See the [Obsidian proof](obsidian/README.md) for screenshots of the linked vault.

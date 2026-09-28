@@ -1,6 +1,6 @@
 # Public evaluation plan
 
-The four exact test questions are kept in a local, Git-ignored file to avoid publishing Hanif's prompt text. This document records their roles and expected evidence without reproducing the questions. The same four cases are used for connected and offline checks.
+This document records the four case roles and expected evidence. The same cases were used for connected and offline checks. Hanif later approved publishing the [exact questions and displayed answers](../evidence/question-and-answer-review.md).
 
 | Case | Type | Expected evidence and behavior |
 | --- | --- | --- |
@@ -9,4 +9,4 @@ The four exact test questions are kept in a local, Git-ignored file to avoid pub
 | Q3 | Synthesis | S02, lines 23–25, and S03, line 20. Combine versioned evaluation with code-enforced run budgets; cite both notes. |
 | Q4 | Unsupported | The notes give budget categories but no exact values for this Mac. Abstain and invent no numbers. |
 
-The harness checks citation IDs against retrieved passages. A human must also check whether each passage supports the answer. Raw question text, model requests, answers, and terminal transcripts remain local; publish only a redacted outcome summary.
+The harness checks citation IDs against retrieved passages. A human must also check whether each passage supports the answer. The exact test questions and displayed answers are public in the linked review. Full model requests, raw responses, and terminal transcripts remain local.
