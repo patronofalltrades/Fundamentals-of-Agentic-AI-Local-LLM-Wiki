@@ -6,7 +6,7 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 
 **Current state:** The Mac has an Apple M5 chip and 16 GB of memory. Ollama and Obsidian are installed. `gemma4:e2b-mlx` is on the Mac. Hanif approved three rewritten notes in the separate assignment vault; their hashes are frozen. The CLI has ingestion, search, ask, chat, and help commands. Local Gemma generated three linked wiki pages. The frozen corpus passed connected and disconnected four-case answer checks, search, chat, and 35 code tests. The required Obsidian screenshots are saved. Two disconnected runs completed on 2026-09-28; the latest has a cropped proof GIF and prompt-free public summary.
 
-**Next action:** Review all public files and commit and push the repository. Open the GitHub page while signed out, then submit its URL in bCourses.
+**Next action:** Submit the [public repository URL](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki) in bCourses. Public visibility and unauthenticated access to key files have been checked.
 
 ## Progress checklist
 
@@ -17,7 +17,7 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 | 7–10 | Build the CLI and run connected ask, chat, retrieval, and code checks | Done |
 | 11 | Open the assignment vault and follow its index and source links | Done; required screenshots saved |
 | 12 | Disconnect, restart Ollama and Terminal, then record the full offline run | Done; two completed runs and safe GIF |
-| 13 | Add prompt-free offline results and screenshots, review public files, publish, and submit the URL | Evidence added; publication remains |
+| 13 | Add prompt-free offline results and screenshots, review public files, publish, and submit the URL | Published; course submission remains |
 
 The connected and disconnected four-case answer checks passed, and all 35 code tests passed. Exact personal test and chat inputs remain in Git-ignored local files.
 

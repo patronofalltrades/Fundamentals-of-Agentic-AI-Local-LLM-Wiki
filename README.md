@@ -6,7 +6,7 @@ Read the [step-by-step implementation plan](IMPLEMENTATION_PLAN.md) for the buil
 
 ## Current status
 
-The CLI has working `ingest`, `search`, `ask`, `chat`, and `help` commands. On 2026-09-27, we replaced the original bookmark copies with three rewritten study notes in the separate assignment Obsidian vault. Hanif approved their wording, and their hashes are frozen in the source catalog. Local Gemma generated three linked wiki pages, which were checked against the notes. The frozen corpus passed connected and disconnected four-case evaluations. The required Obsidian screenshots are saved. Two disconnected runs completed on 2026-09-28. The project is ready for a final public-file review and GitHub publication.
+The CLI has working `ingest`, `search`, `ask`, `chat`, and `help` commands. On 2026-09-27, we replaced the original bookmark copies with three rewritten study notes in the separate assignment Obsidian vault. Hanif approved their wording, and their hashes are frozen in the source catalog. Local Gemma generated three linked wiki pages, which were checked against the notes. The frozen corpus passed connected and disconnected four-case evaluations. The required Obsidian screenshots are saved. Two disconnected runs completed on 2026-09-28. This [public GitHub repository](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki) has the reviewed code and prompt-free evidence. The remaining handover step is to submit its URL in bCourses.
 
 The [source catalog](data/source-catalog.json) records the approved notes, source links, and SHA-256 hashes. The [intake record](evidence/source-intake/README.md) explains the migration and review status. The full third-party bookmark copies remain only in a Git-ignored local archive and in Hanif's Brain. Exact evaluation inputs and raw logs stay local; the public report contains outcomes without question text.
 
@@ -132,4 +132,4 @@ The answers belong in `learning/quiz-log.md`, outside the searchable wiki. The q
 2. Versioned Agent Learning — evaluate, keep or revert, and record learning.
 3. Agent Run Controls — explain budgets and recovery.
 
-The retrieval, citation, and chat learning checkpoints are in `learning/quiz-log.md`. Ingestion, search, ask, and chat are implemented. The frozen corpus has passed connected and disconnected answer and chat checks. The remaining work is the final public-repository review, publication, and course submission.
+The retrieval, citation, and chat learning checkpoints are in `learning/quiz-log.md`. Ingestion, search, ask, and chat are implemented. The frozen corpus has passed connected and disconnected answer and chat checks. Public visibility and unauthenticated access to the README and completed-run GIF were checked. Submit the repository URL in bCourses.
