@@ -1,3 +1,54 @@
 {
-  "sources": []
+  "corpus_version": 2,
+  "frozen_at_utc": "2026-09-28T03:24:53Z",
+  "review_status": "reviewed_by_hanif",
+  "purpose": "Compare agent architectures, learn from evaluations, and explain local agent run controls.",
+  "retrieval_root": "vault/raw/",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Choosing Agent Architectures",
+      "path": "vault/raw/Choosing Agent Architectures.md",
+      "origin_vault": "Assignment vault",
+      "origin_path": "vault/raw/Choosing Agent Architectures.md",
+      "sha256": "34f0d549d4820cfbd02578ee1cbd54b3a9d3c04c996dd2f7cb73190efbceee4c",
+      "bytes": 2743,
+      "lines": 40,
+      "upstream_author": "h100envy",
+      "upstream_url": "https://x.com/h100envy/status/2070162890036801603",
+      "source_type": "Codex-assisted study note in new wording, derived from an attributed bookmark",
+      "publication_status": "Hanif approved the rewritten study note on 2026-09-27; reference post credited",
+      "original_links": []
+    },
+    {
+      "id": "S02",
+      "title": "Versioned Agent Learning",
+      "path": "vault/raw/Versioned Agent Learning.md",
+      "origin_vault": "Assignment vault",
+      "origin_path": "vault/raw/Versioned Agent Learning.md",
+      "sha256": "2d3d10ecaaf5958ec70d0e739f1afd776e0e6e9a93593bd1f169fe23f3b4aed2",
+      "bytes": 2221,
+      "lines": 37,
+      "upstream_author": "Shubham Saboo",
+      "upstream_url": "https://x.com/Saboo_Shubham_/status/2069473303992115607",
+      "source_type": "Codex-assisted study note in new wording, derived from an attributed bookmark",
+      "publication_status": "Hanif approved the rewritten study note on 2026-09-27; reference post credited",
+      "original_links": []
+    },
+    {
+      "id": "S03",
+      "title": "Agent Run Controls",
+      "path": "vault/raw/Agent Run Controls.md",
+      "origin_vault": "Assignment vault",
+      "origin_path": "vault/raw/Agent Run Controls.md",
+      "sha256": "5916a5f9fae27e1e6716ee7c64ae46670f7008284d51825a716a51fc6f10bbdc",
+      "bytes": 2439,
+      "lines": 36,
+      "upstream_author": "Karan",
+      "upstream_url": "https://x.com/kmeanskaran/status/2089417884984606736",
+      "source_type": "Codex-assisted study note in new wording, derived from an attributed bookmark",
+      "publication_status": "Hanif approved the rewritten study note on 2026-09-27; reference post credited",
+      "original_links": []
+    }
+  ]
 }

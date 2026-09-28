@@ -1,0 +1,14 @@
+{
+  "S01": {
+    "title": "Agent Architecture Patterns",
+    "related": {"S02": "Use evaluation to improve the instructions that an agent follows.", "S03": "Add operating limits and recovery controls to the chosen structure."}
+  },
+  "S02": {
+    "title": "Learning from Agent Evaluations",
+    "related": {"S01": "Place evaluation within an agent architecture.", "S03": "Combine quality checks with controls for reliable operation."}
+  },
+  "S03": {
+    "title": "Agent Reliability Controls",
+    "related": {"S01": "Apply reliability controls to the chosen agent structure.", "S02": "Record evaluation results and keep or revert changes."}
+  }
+}

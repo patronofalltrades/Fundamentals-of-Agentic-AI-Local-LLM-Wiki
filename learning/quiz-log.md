@@ -1,11 +1,5 @@
-# Learning quiz log
+# Learning checkpoints
 
-This log records our own explanations and corrections as we build. It stays outside `vault/` and outside the retrieval index.
+The interactive quiz record is kept locally outside Git because it can contain Hanif's prompt text and personal answers. The completed checkpoints covered retrieval versus generation, the role of the harness, citation ID membership versus claim support, and the difference between a fresh ask and contextual chat.
 
-## Checkpoint 1 — Retrieval, RAG, and harness
-
-**Question:** What is the difference between the retrieval tool, the RAG workflow, and the harness in this assignment?
-
-**Learner answer:** Pending.
-
-**Review:** Pending.
+The final submission uses the code, reviewed notes, wiki pages, and prompt-free test summary as evidence. This page does not reproduce the private quiz conversation.

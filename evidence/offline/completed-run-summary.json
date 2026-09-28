@@ -1,0 +1,64 @@
+{
+  "run_id": "20260928T190114Z-21559",
+  "status": "completed",
+  "wifi": "off",
+  "external_https": "unreachable",
+  "model": "gemma4:e2b-mlx",
+  "ingestion": {
+    "sources": 3,
+    "wall_seconds": 34.08,
+    "status": "completed"
+  },
+  "code_tests": {
+    "passed": 35,
+    "status": "passed"
+  },
+  "ask_cases": [
+    {
+      "id": "Q1",
+      "supported_response": true,
+      "expected_sources_cited": true,
+      "citation_ids_valid": true,
+      "wall_seconds": 3.934,
+      "expected_lines_retrieved": true
+    },
+    {
+      "id": "Q2",
+      "supported_response": true,
+      "expected_sources_cited": true,
+      "citation_ids_valid": true,
+      "wall_seconds": 2.871,
+      "expected_lines_retrieved": true
+    },
+    {
+      "id": "Q3",
+      "supported_response": true,
+      "expected_sources_cited": true,
+      "citation_ids_valid": true,
+      "wall_seconds": 3.817,
+      "expected_lines_retrieved": true
+    },
+    {
+      "id": "Q4",
+      "supported_response": false,
+      "expected_sources_cited": true,
+      "citation_ids_valid": true,
+      "wall_seconds": 3.153,
+      "abstained_without_citations": true
+    }
+  ],
+  "chat": {
+    "four_turn_check": "passed",
+    "cited_note_follow_up": "passed"
+  },
+  "manual_review": {
+    "Q1": "S01 lines 20-24 support claims",
+    "Q2": "S02 lines 20-25 support claims",
+    "Q3": "S02 lines 20-25 and S03 lines 20-24 support claims",
+    "Q4": "no exact budget values invented"
+  },
+  "private_terminal_sha256": "3fb42b27273f8959deb17491d687a8748daf16e6c4536b23c5fefc4ec0958bfd",
+  "private_evaluation_sha256": "27495597c433ea72d72c826432215b17a9adb04f2e002c8c0bdbb49d95b5e58c",
+  "private_video_sha256": "25f2f9da519d32f71ab245d5d3d75b1c1d97145a2d3ff0c8736db06454a7a84b",
+  "privacy": "Exact questions, answers, model requests, and the full terminal log are in Git-ignored local files. The full video stays private outside the repository."
+}

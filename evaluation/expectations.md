@@ -1,12 +1,12 @@
-# Evaluation expectations — define before retrieval
+# Public evaluation plan
 
-This file stays outside `vault/` and must not be indexed by the CLI. Fill the source and expected-passage fields from the three selected originals before running the harness. Do not write model answers here in advance.
+The four exact test questions are kept in a local, Git-ignored file to avoid publishing Hanif's prompt text. This document records their roles and expected evidence without reproducing the questions. The same four cases are used for connected and offline checks.
 
-| Test | Question | Expected source and exact passage | Expected behavior |
-| --- | --- | --- | --- |
-| 1 — direct | Pending source choice | Pending | Answer from one source with a correct citation |
-| 2 — paraphrase | Pending source choice | Pending | Retrieve despite changed wording, then cite the supporting passage |
-| 3 — synthesis | Pending source choice | Pending | Answer from the available evidence, possibly linking two sources |
-| 4 — unsupported | Pending source choice | No supporting passage in the frozen corpus | Explicitly say the evidence is insufficient |
+| Case | Type | Expected evidence and behavior |
+| --- | --- | --- |
+| Q1 | Direct | S01, lines 20–24. Describe the five architecture patterns with a valid S01 citation. |
+| Q2 | Paraphrase | S02, lines 23–25. Explain what to do after a worse checklist revision and how to keep the learning. |
+| Q3 | Synthesis | S02, lines 23–25, and S03, line 20. Combine versioned evaluation with code-enforced run budgets; cite both notes. |
+| Q4 | Unsupported | The notes give budget categories but no exact values for this Mac. Abstain and invent no numbers. |
 
-For each run, save the exact retrieved passages and paths, Gemma answer, citations, model identity, execution setting, timing, and our assessment in a separate evidence card. A citation ID that exists in the retrieval result is necessary but does not prove the cited text supports the claim.
+The harness checks citation IDs against retrieved passages. A human must also check whether each passage supports the answer. Raw question text, model requests, answers, and terminal transcripts remain local; publish only a redacted outcome summary.

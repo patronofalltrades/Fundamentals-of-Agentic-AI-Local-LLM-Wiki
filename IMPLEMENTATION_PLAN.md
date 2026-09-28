@@ -4,9 +4,22 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 
 **Goal:** Make one local personal wiki. Use local Gemma to make wiki pages and answer questions from original notes. Show the result in a CLI and in Obsidian.
 
-**Current state:** The Mac has an Apple M5 chip and 16 GB of memory. Ollama and Obsidian are installed. `gemma4:e2b-mlx` is on the Mac. A short model test passed. The project has no source notes or CLI yet.
+**Current state:** The Mac has an Apple M5 chip and 16 GB of memory. Ollama and Obsidian are installed. `gemma4:e2b-mlx` is on the Mac. Hanif approved three rewritten notes in the separate assignment vault; their hashes are frozen. The CLI has ingestion, search, ask, chat, and help commands. Local Gemma generated three linked wiki pages. The frozen corpus passed connected and disconnected four-case answer checks, search, chat, and 35 code tests. The required Obsidian screenshots are saved. Two disconnected runs completed on 2026-09-28; the latest has a cropped proof GIF and prompt-free public summary.
 
-**Next action:** Select three original notes for Step 1. Use notes that can appear in a public repository.
+**Next action:** Review all public files and commit and push the repository. Open the GitHub page while signed out, then submit its URL in bCourses.
+
+## Progress checklist
+
+| Step | Work | Status |
+| --- | --- | --- |
+| 1–4 | Select three notes, record the local model, freeze four test cases, and set up separate folders | Done |
+| 5–6 | Generate and review three linked wiki pages; search original passages | Done |
+| 7–10 | Build the CLI and run connected ask, chat, retrieval, and code checks | Done |
+| 11 | Open the assignment vault and follow its index and source links | Done; required screenshots saved |
+| 12 | Disconnect, restart Ollama and Terminal, then record the full offline run | Done; two completed runs and safe GIF |
+| 13 | Add prompt-free offline results and screenshots, review public files, publish, and submit the URL | Evidence added; publication remains |
+
+The connected and disconnected four-case answer checks passed, and all 35 code tests passed. Exact personal test and chat inputs remain in Git-ignored local files.
 
 ## Step 1 — Select the notes
 
@@ -33,7 +46,7 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 2. Write three questions that the notes can answer.
 3. Write one question that the notes cannot answer.
 4. Record the expected source passage for each answerable question.
-5. Put the questions in `evaluation/expectations.md`. Keep this file outside the wiki.
+5. Put the exact questions in the Git-ignored local evaluation file. Keep it outside the wiki. Put only case roles and expected evidence in public `evaluation/expectations.md`.
 
 **Check:** The four questions and expected results exist before the retrieval test.
 
@@ -80,7 +93,7 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 5. Check that each citation names a passage that was retrieved.
 6. Return an insufficient-evidence response when the passages do not support an answer.
 
-**Check:** Three supported questions get cited answers. The unsupported question gets an honest limit. Check each material claim against its cited text.
+**Check (passed locally with Gemma):** Three supported questions get cited answers. The unsupported question gets an honest limit. Check each material claim against its cited text. See `evidence/ask/README.md` and the final evaluation record.
 
 ## Step 8 — Make personal chat
 
@@ -88,9 +101,9 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 2. Keep recent chat turns for follow-up requests.
 3. Search notes only when the request needs note evidence.
 4. Cite claims that come from notes. Mark new ideas as suggestions.
-5. Test a casual request, a short draft, and “make that shorter.”
+5. Test a casual request, a short draft, and a shorter follow-up.
 
-**Check:** Chat handles a casual request without an unrelated note search. A follow-up uses the prior chat turn. Chat text does not become evidence for `ask`.
+**Check (passed locally with Gemma):** Chat handles a casual request without an unrelated note search. A follow-up uses the prior chat turn. A note-based follow-up retrieves and cites its source again. Chat text does not become evidence for `ask`. See `evidence/chat/README.md`.
 
 **Quiz 3:** Why can `chat` use history while `ask` must start without it?
 
@@ -101,7 +114,7 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 3. Show a clear error if a source file or the local model is unavailable.
 4. Save actual outputs and run settings outside the wiki.
 
-**Check:** A reader can run every required command from the README. No command calls a cloud service in local mode.
+**Check (passed locally, including the disconnected run):** A reader can run every required command from the README. The commands use the local model endpoint. Step 12 records the disconnected proof.
 
 ## Step 10 — Test and correct the result
 
@@ -112,7 +125,7 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 5. Run the chat and search checks. Save the transcript.
 6. Keep the first failed result when you make a change. Run the affected test again.
 
-**Check:** The record shows expected evidence, actual evidence, actual answers, and an honest result for each test.
+**Check (passed locally with Gemma):** The record shows expected evidence, actual evidence, actual answers, and an honest result for each test. Repeat these checks after disconnecting and restarting in Step 12.
 
 ## Step 11 — Check the wiki in Obsidian
 
@@ -125,6 +138,8 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 **Check:** The links work. The screenshots show readable notes and meaningful connections.
 
 ## Step 12 — Make the offline proof
+
+Use the [offline walkthrough](learning/offline-walkthrough.md) and `scripts/offline-proof.sh` to repeat the test. The first disconnected attempt stopped before the ask checks because a private file was not resident on disk. Two later runs completed. The [safe completed-run GIF](evidence/offline/completed-offline-steps.gif) and [prompt-free offline report](evidence/offline/README.md) show the result while raw records remain private.
 
 1. Confirm that the model and all software packages are on the Mac.
 2. Disconnect the Mac from the internet. Restart the CLI.
@@ -141,12 +156,12 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 
 1. Write the README as the entry point.
 2. Add the exact setup commands, model choice, device facts, architecture, and known limit.
-3. Link the source list, wiki, four question records, chat/search record, offline proof, and Obsidian screenshots.
+3. Link the source list, wiki, prompt-free four-case report, chat/search summary, offline proof summary, and Obsidian screenshots.
 4. Check the repository for secrets and private data.
 5. Publish one public GitHub repository. Open it while signed out and check the links.
 6. Submit that repository URL in bCourses.
 
-**Final check:** The repository contains the code, three original notes, reviewed wiki pages, test records, offline proof, screenshots, and a complete README. The public links work.
+**Final check:** The repository contains the code, three original notes, reviewed wiki pages, prompt-free test evidence, offline proof summary, screenshots, and a complete README. The public links work.
 
 ## Work rule
 

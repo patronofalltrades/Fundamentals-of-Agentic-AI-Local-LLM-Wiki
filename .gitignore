@@ -12,3 +12,19 @@ model-weights/
 runtime/
 .obsidian/
 vault/.obsidian/
+/private-archive/
+# Local run records can contain user questions, source text, and model instructions.
+/evidence/ask/*
+!/evidence/ask/README.md
+/evidence/chat/*
+!/evidence/chat/README.md
+/evidence/search/*
+!/evidence/search/README.md
+/evidence/ingestion/*
+!/evidence/ingestion/README.md
+/evidence/offline/*
+!/evidence/offline/README.md
+!/evidence/offline/first-attempt-steps.gif
+!/evidence/offline/completed-offline-steps.gif
+!/evidence/offline/completed-run-summary.json
+/evaluation/chat-*.txt
