@@ -1,6 +1,10 @@
 # Personal Wiki with Local Gemma + RAG
 
-Assignment 4 for Fundamentals of Agentic AI. This repository is being built as a learning project. The [assignment brief](https://docs.google.com/document/d/1p9vRwgdT9cmSxwdl4ylHKi7dcBZFSmVpILcFMQS33Vs/edit) governs the final deliverable.
+![Concept illustration of three original notes becoming a linked wiki through a local Gemma workflow](assets/readme-title.png)
+
+Assignment 4 for Fundamentals of Agentic AI. This repository documents the learning project. The [assignment brief](https://docs.google.com/document/d/1p9vRwgdT9cmSxwdl4ylHKi7dcBZFSmVpILcFMQS33Vs/edit) governs the final deliverable.
+
+The title, `ask`, and `chat` illustrations are AI-generated concepts. Test records and Obsidian screenshots are in `evidence/`.
 
 Read the [step-by-step implementation plan](IMPLEMENTATION_PLAN.md) for the build order, checks, and quiz points.
 
@@ -59,6 +63,8 @@ See the [search walkthrough](learning/search-walkthrough.md) and [version-2 retr
 
 ## Ask from the notes
 
+![Concept illustration of a question finding an original passage and producing a cited answer](assets/readme-ask.png)
+
 ```sh
 python3 wiki.py ask "$QUESTION" --limit 3
 ```
@@ -70,6 +76,8 @@ Set `QUESTION` to a question you want to ask before running this example.
 The direct test uses its top passage; the other cases use three. Each attempt saves the exact passages, model request and response, runtime settings, answer, and outcome in Git-ignored local records. See the [ask walkthrough](learning/ask-walkthrough.md), [public evaluation plan](evaluation/expectations.md), and [prompt-free connected results](evidence/connected-evaluation.md).
 
 ## Chat locally
+
+![Concept illustration of a multi-turn local chat that can return to an original note](assets/readme-chat.png)
 
 ```sh
 python3 wiki.py chat
