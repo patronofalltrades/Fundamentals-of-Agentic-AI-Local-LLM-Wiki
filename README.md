@@ -9,7 +9,7 @@ This is Assignment 4 for Fundamentals of Agentic AI.
 - **Interface:** Use our Python command-line interface (CLI).
 - **Wiki:** Open `vault/` as a separate Obsidian vault.
 - **Status:** The build and tests are complete. The repository is public.
-- **Final action:** Submit the [repository URL](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki) in bCourses.
+- **Submission:** The [repository URL](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki) was submitted to bCourses Assignment 4 on 2026-09-28.
 
 The title, `ask`, and `chat` images are AI-generated concept art. The test evidence and Obsidian screenshots are in [`evidence/`](evidence/).
 
@@ -225,8 +225,8 @@ The four test questions and displayed responses are public in the review linked 
 
 References: [assignment brief](https://docs.google.com/document/d/1p9vRwgdT9cmSxwdl4ylHKi7dcBZFSmVpILcFMQS33Vs/edit), [Gemma guide](https://ai.google.dev/gemma/docs/core), [Ollama Gemma listing](https://ollama.com/library/gemma4), [Ollama chat API](https://docs.ollama.com/api/chat), [SQLite FTS5](https://www.sqlite.org/fts5.html), and [Obsidian vault guide](https://help.obsidian.md/Files%20and%20folders/Manage%20vaults).
 
-## Submit
+## Course submission
 
-Submit this one URL in bCourses:
+This one URL was submitted to bCourses Assignment 4 on 2026-09-28:
 
 **[github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki)**

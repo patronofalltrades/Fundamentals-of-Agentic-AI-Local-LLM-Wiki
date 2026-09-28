@@ -16,7 +16,7 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 - The Obsidian screenshots and two completed offline runs are saved.
 - The public repo includes a safe GIF and a question-and-answer review.
 
-**Next action:** Submit the [public repository URL](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki) in bCourses.
+**Submission:** The [public repository URL](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki) was submitted to bCourses Assignment 4 on 2026-09-28.
 
 ## Progress checklist
 
@@ -26,7 +26,7 @@ This plan uses short, direct sentences. Each step has one result to check. The [
 - [x] **Step 11:** Open the vault in Obsidian. Save the required screenshots.
 - [x] **Step 12:** Disconnect, restart, and run the offline test twice.
 - [x] **Step 13:** Publish the code, notes, wiki, and safe evidence.
-- [ ] **Final action:** Submit the public repository URL in bCourses.
+- [x] **Final action:** Submit the public repository URL in bCourses.
 
 The exact test and chat inputs remain in Git-ignored local files.
 

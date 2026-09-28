@@ -1,8 +1,8 @@
 # Assignment 4 submission
 
-**Submit one link:** [the public GitHub repository](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki) in bCourses.
+**Submitted link:** [the public GitHub repository](https://github.com/patronofalltrades/Fundamentals-of-Agentic-AI-Local-LLM-Wiki) in bCourses.
 
-The build and evidence are complete. Course submission is the remaining action.
+The build, evidence, and course submission are complete. bCourses recorded the URL submission on 2026-09-28.
 
 ## Ready for review
 
@@ -20,7 +20,7 @@ The build and evidence are complete. Course submission is the remaining action.
 - [x] The public review shows the four test questions and displayed answers.
 - [x] Raw model responses, full recordings, and other private prompts remain local.
 - [x] The repository and key files opened without signing in.
-- [ ] Send the repository URL in bCourses.
+- [x] Send the repository URL in bCourses.
 
 ## Where to look
 
